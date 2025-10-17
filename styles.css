@@ -1,0 +1,50 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #f0f0f0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+input, select, button {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#summary {
+  margin: 1rem 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+#entries {
+  list-style: none;
+  padding: 0;
+}
+
+#entries li {
+  background: white;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+}
