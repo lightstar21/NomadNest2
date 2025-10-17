@@ -41,7 +41,7 @@ form.addEventListener('submit', async (e) => {
       method: 'POST',
       mode: 'cors',
       headers: {'Access-Control-Allow-Headers': 'Authorization',
-        'Authorization': 'Bearer xai-uXTt1FQgYSfSOWQLq17ffB2EEqR0pD3YLqh4nvB1V4oesLvJBFIi2Bugcf6RN4rWdNS56ykVlHIiWqZ8', // ← CHANGE THIS to your real Grok key (starts with gsk_)
+        'Authorization': 'xai-uXTt1FQgYSfSOWQLq17ffB2EEqR0pD3YLqh4nvB1V4oesLvJBFIi2Bugcf6RN4rWdNS56ykVlHIiWqZ8', // ← CHANGE THIS to your real Grok key (starts with gsk_)
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
