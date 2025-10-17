@@ -37,7 +37,7 @@ form.addEventListener('submit', async (e) => {
   let category = description; // fallback to what you wrote
 
   try {
-    const aiResponse = await fetch('https://api.x.ai/v1/chat/completions', {
+    const aiResponse = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       mode: 'cors',
       headers: {'Access-Control-Allow-Headers': 'Authorization',
